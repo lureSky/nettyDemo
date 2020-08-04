@@ -50,8 +50,8 @@ public class ChatServer {
             System.out.println("服务器启动了！！");
 
 
-            channelFuture.channel().closeFuture().sync();
-            System.out.println("服务器退出了");
+            /*channelFuture.channel().closeFuture().sync();
+            System.out.println("服务器退出了");*/
 
         }catch (Exception e) {
             e.printStackTrace();
